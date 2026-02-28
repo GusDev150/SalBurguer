@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    background-color: #55312f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.header-container h1 {
+    margin-left: 10px;
+    font-size: 3.5em;
+    color: rgb(255, 136, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-container img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav-container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4px;
+}
+
+.nav-container a{
+    font-size: 1.4em;
+    padding: 4px;
+    color: black;
+    background-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.nav-container a:hover {
+    background-color: rgb(255, 166, 0);
+    color: rgb(82, 82, 82);
+    transform: scale(1.1);
+}
+
+.categorias {
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categorias a{
+    height: 100%;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3 ease, color ;
+}
+
+.categorias a:hover {
+    background-color: orange;
+    color: rgb(214, 214, 214);
+}
+
+.navbar {
+    display: flex;
+    background-color: #6e6e6e;
+    padding: 6px;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    max-width: 520px;
+    
+    border-radius: 20px;
+}
+
+#pesquisa {
+    flex: 1;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 1px;
+
+    margin-top: 10px;
+}
+
+.cards {
+    background-color: black;
+    width: 100px;
+    height: 200px;
+    
+}
