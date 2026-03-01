@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -119,7 +120,7 @@ header {
 .cards {
     background-color: rgb(87, 87, 87);
     color: white;
-    min-width: 175px;
+    max-width: 175px;
     min-height: 260px;
     border-radius: 10px;
 
@@ -130,6 +131,11 @@ header {
     justify-content: space-evenly;
 
     transition: transform 0.3s ease;
+}
+
+.cards img { 
+    width: 80%;
+    height: 80%;
 }
 
 .cards:hover {
@@ -196,6 +202,10 @@ footer {
 
 span {
     color: orange;
+}
+
+span:hover {
+    text-decoration: underline;
 }
 
 .bottom {
