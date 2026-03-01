@@ -1,0 +1,106 @@
+/* ===== TABLET 768px UP ======= */
+
+@media (min-width: 768px) {
+
+    header {
+        flex-direction: row;
+    }
+
+    .categorias {
+        flex-direction: row;
+    }
+
+    .cards {
+        max-width: 45%;
+    }
+
+    .footer-section,
+    .footer-section-des {
+        width: 45%;
+    }
+}
+
+/* ===== DESKTOP 1024px UP ===== */
+
+@media (min-width: 1024px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .header-container h1 {
+        margin-left: 10px;
+        font-size: 5.5em;
+        color: rgb(255, 136, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .header-container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .nav-container {
+        gap: 8px;
+    }
+
+    .nav-container a{
+        font-size: 2.2em;
+        padding: 5px;
+    }
+
+    .categorias a{
+        font-size: 1.9em;
+        padding: 10px;
+    }
+
+    .search-bar {
+        max-width: 1200px;
+    }
+
+    #pesquisa {
+        padding: 15px;
+        font-size: 1.4em;
+        border-radius: 40px;
+    }
+
+    .cards {
+        max-width: 200px;
+    }
+
+    .footer-section {
+        width: 180px;
+    }
+
+    .footer-section a {
+        font-size: 1.9em;
+    }
+
+    .footer-section h3, h2 {
+        padding: 10px;
+        font-size: 3em;
+    }
+
+    .footer-section-des {
+        width: 300px;
+        font-size: 1.23em;
+    }
+
+    .bottom {
+        font-size: 1.9em;
+    }
+}
+
+/* ===== DESKTOP GRANDE ======== */
+
+@media (min-width: 1400px) {
+
+    .cards-container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .cards {
+        max-width: 230px;
+    }
+}

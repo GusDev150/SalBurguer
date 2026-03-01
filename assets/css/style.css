@@ -17,6 +17,11 @@ header {
     padding: 10px;
 }
 
+/*img {
+    max-width: 100%;
+    height: auto;  POSIVELMENTE REMOVER
+}*/ 
+
 
 .header-container {
     display: flex;
@@ -62,11 +67,12 @@ header {
 .categorias {
     background-color: rgb(83, 83, 83);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .categorias a{
+    width: 100%;
     padding: 5px;
     text-align: center;
     color: white;
@@ -108,11 +114,10 @@ header {
 }
 
 .cards-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 20px;
+    justify-items: center;
 
     margin-top: 10px;
 }
@@ -133,9 +138,18 @@ header {
     transition: transform 0.3s ease;
 }
 
+.cards p {
+    font-size: 1.2em;
+}
+
 .cards img { 
     width: 80%;
     height: 80%;
+    object-fit: contain;
+}
+
+.din{
+    color: rgb(1, 202, 1);
 }
 
 .cards:hover {
@@ -149,7 +163,7 @@ footer {
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
 
 }
