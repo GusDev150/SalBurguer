@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: linear-gradient(to top, #2E2E2E, #4A2C2A);
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn-close {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
+    z-index: 1000;
+    text-decoration: none;
+}
+
+.btn-close .material-symbols-outlined {
+    font-size: 36px;
+    color: var(--Bege);
+
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 5px;
+
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-close:hover .material-symbols-outlined {
+    transform: scale(1.15);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    overflow: hidden;
+
+    background-color: rgb(238, 238, 238);
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+section#login > div.img {
+    display: block;
+    background-image: url(../img/teladefundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 175px;
+    background-position: center left;
+}
+
+section#login > div.formulario {
+    display: block;
+    padding: 10px;
+
+}
+
+div.formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+div.formulario > p {
+    font-size: 0.9em;
+}
+
+form > div.campo {
+    background-color: white;
+    display: block;
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 5px 0px;
+    border: 2px solid black;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: black;
+    font-size: 1.8em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 43.7px);
+    height: 100%;
+    border: 0px;
+    border-radius: 0px 8px 8px 0px; 
+    padding: 5px;
+    transform: translateY(-12.6px);
+    outline: none;
+}
+
+div.campo > input:focus-within {
+    background-color: #62aaa6;
+    border: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #58aaa7;
+    color: white;
+    border: 1px solid #2b7c78;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #2b7c78;
+}
+
+p.cadastro {
+    padding-top: 5px;
+    padding-left: 25px;
+}
+
+p.cadastro > a {
+    text-decoration: none;
+}
+
+
+p.cadastro > a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /* TABLET */
+    body {
+        background-image: linear-gradient(to top, #2E2E2E, #4A2C2A);
+    }
+    
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
+    section#login > div.img {
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+
+    section#login > div.formulario {
+        float: right;
+        width: 70%;
+    }
+
+    form > input[type=submit] {
+        font-size: 15px;
+        height: 30px;
+    }
+
+    form > a.botao {
+        height: 30px;
+        font-size: 15px;
+    }
+
+    p.cadastro {
+        padding-left: 130px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #2E2E2E, #4A2C2A)
+    }
+    
+    section#login {
+        width: 950px;
+        height: 350px;
+    }
+
+    section#login > div.img {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div.formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div.formulario > h1 {
+        font-size: 2em;
+    }
+
+    div.formulario > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+
+    p.cadastro {
+        padding-top: 5px;
+        padding-left: 150px;
+    }
+}
