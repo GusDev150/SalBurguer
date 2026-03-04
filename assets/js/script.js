@@ -1,3 +1,7 @@
+//document.addEventListener('DOMContentLoaded', function(){
+//    filtrar('destaques')
+//})
+
 function filtrar(categoria) {
 
     const cards = document.querySelectorAll(".cards");

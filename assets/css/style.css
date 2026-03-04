@@ -140,6 +140,10 @@ header {
     transition: transform 0.3s ease;
 }
 
+.cards h1, h1 {
+    text-align: center;
+}
+
 .cards p {
     font-size: 1.2em;
 }
