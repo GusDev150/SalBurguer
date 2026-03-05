@@ -45,13 +45,13 @@
     }
 
     .nav-container a{
-        font-size: 2em;
+        font-size: 2.6em;
         padding: 5px;
     }
 
     .categorias button{
-        font-size: 1.6em;
-        padding: 10px;
+        font-size: 1.3em;
+        padding: 5px;
     }
 
     .search-bar {

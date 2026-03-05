@@ -92,6 +92,9 @@ form > div.campo {
     border-radius: 8px;
     margin: 5px 0px;
     border: 2px solid black;
+
+    display: flex;
+    align-items: center;
 }
 
 div.campo > label {
@@ -113,8 +116,9 @@ div.campo > input {
     border: 0px;
     border-radius: 0px 8px 8px 0px; 
     padding: 5px;
-    transform: translateY(-12.6px);
     outline: none;
+
+    flex: 1;
 }
 
 div.campo > input:focus-within {
