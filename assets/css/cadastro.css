@@ -9,7 +9,7 @@
 }
 
 body, html {
-    background-image: linear-gradient(to top, #2E2E2E, #4A2C2A);
+    background-image: linear-gradient(to bottom, #0e0c0c, #640f09fa);
     height: 100vh;
     width: 100vw;
 }
@@ -21,6 +21,7 @@ body, html {
 
     z-index: 1000;
     text-decoration: none;
+    color: white;
 }
 
 .btn-close .material-symbols-outlined {
@@ -50,7 +51,7 @@ main {
 section#login {
     overflow: hidden;
 
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(182, 182, 182);
     width: 250px;
     height: 515px;
     border-radius: 20px;
@@ -159,7 +160,7 @@ p.cadastro > a:hover {
 
 @media screen and (min-width: 768px) and (max-width: 992px){ /* TABLET */
     body {
-        background-image: linear-gradient(to top, #2E2E2E, #4A2C2A);
+        background-image: linear-gradient(to bottom, #0e0c0c, #640f09fa);
     }
     
     section#login {
@@ -195,7 +196,7 @@ p.cadastro > a:hover {
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #2E2E2E, #4A2C2A)
+        background-image: linear-gradient(to bottom, #0e0c0c, #640f09fa);
     }
     
     section#login {

@@ -82,7 +82,8 @@
     }
 
     .footer-section-des {
-        width: 300px;
+        justify-content: flex-start;
+        width: 70%;
         font-size: 1.23em;
     }
 
