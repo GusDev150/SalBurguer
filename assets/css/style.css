@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -27,14 +30,13 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .header-container h1 {
     margin-left: 10px;
     font-size: 2.5em;
+    font-family: "Life Savers", serif;
     color: rgb(247, 119, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header-container img {
@@ -124,12 +126,14 @@ header {
     min-height: 260px;
     text-shadow: 2px 2px 2px black;
     border-radius: 10px;
+    font-weight: lighter;
 
     display: flex;
     flex-flow: column  nowrap;
     align-items: center;
     align-content: space-between;
     justify-content: space-evenly;
+    
 
     transition: transform 0.3s ease;
 }
