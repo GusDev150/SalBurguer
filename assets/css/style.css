@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -6,11 +9,11 @@
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(161, 57, 57);
 }
 
 header {
-    background-color: #55312f;
+    background-color: #68302d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,14 +30,13 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .header-container h1 {
     margin-left: 10px;
     font-size: 2.5em;
-    color: rgb(255, 136, 0);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Life Savers", serif;
+    color: rgb(247, 119, 0);
 }
 
 .header-container img {
@@ -64,8 +66,9 @@ header {
 }
 
 .categorias button{
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(134, 53, 53);
     border: none;
+    text-shadow: 1px 1px 1px black;
     width: 100%;
     padding: 5px;
     text-align: center;
@@ -75,13 +78,13 @@ header {
 }
 
 .categorias button:hover {
-    background-color: orange;
+    background-color: rgba(255, 166, 0, 0.836);
     color: rgb(214, 214, 214);
 }
 
 .navbar {
     display: flex;
-    background-color: #6e6e6e;
+    background-color: #ee545485;
     padding: 6px;
     justify-content: center;
 }
@@ -117,17 +120,20 @@ header {
 }
 
 .cards {
-    background-color: rgb(87, 87, 87);
-    color: white;
+    background-color: rgb(95, 29, 29);
+    color: rgb(255, 255, 255);
     max-width: 175px;
     min-height: 260px;
+    text-shadow: 2px 2px 2px black;
     border-radius: 10px;
+    font-weight: lighter;
 
     display: flex;
     flex-flow: column  nowrap;
     align-items: center;
     align-content: space-between;
     justify-content: space-evenly;
+    
 
     transition: transform 0.3s ease;
 }
@@ -161,19 +167,12 @@ footer {
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 10px;
 
 }
 
-.footer-section {
-    width: 180px;
-}
 
-.footer-section ul{
-    list-style: none;
-    text-align: center;
-}
 
 .footer-section a {
     font-size: 1.5em;
