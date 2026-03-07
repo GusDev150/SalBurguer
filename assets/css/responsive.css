@@ -25,7 +25,7 @@
 @media (min-width: 1024px) {
 
     header {
-        padding: 20px;
+        padding: 10px;
     }
 
     .header-container h1 {
@@ -35,8 +35,8 @@
     }
 
     .header-container img {
-        width: 90px;
-        height: 90px;
+        width: 150px;
+        height: 150px;
     }
 
     .nav-container {
