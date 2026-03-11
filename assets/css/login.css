@@ -60,13 +60,11 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div.img {
+section#login > div.img img{
     display: block;
-    background-image: url(../img/teladefundo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 175px;
-    background-position: center left;
+    margin: auto;
+    height: auto;
+    width: 75%;
 }
 
 section#login > div.formulario {
@@ -195,7 +193,9 @@ p.cadastro > a:hover {
 
     section#login > div.img {
         float: left;
-        height: 100%;
+        padding-top: 60px;
+        margin: center;
+        height: auto;
         width: 30%;
     }
 

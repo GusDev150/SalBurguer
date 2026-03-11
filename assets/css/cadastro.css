@@ -60,13 +60,11 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div.img {
+section#login > div.img img{
     display: block;
-    background-image: url(../img/teladefundo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 175px;
-    background-position: center left;
+    margin: auto;
+    height: auto;
+    width: 70%;
 }
 
 section#login > div.formulario {
